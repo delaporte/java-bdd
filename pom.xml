@@ -10,6 +10,13 @@
 	<description>Behaviour Driven Developpement implementation with cucumber and Jbehave</description>
 
     <dependencies>
+    	<dependency>
+			<groupId>org.projectlombok</groupId>
+			<artifactId>lombok</artifactId>
+			<version>1.14.0</version>
+			<scope>compile</scope>
+		</dependency>
+    	
     	<!-- Cucumber dependencies -->
         <dependency>
             <groupId>info.cukes</groupId>
@@ -29,6 +36,7 @@
 			<groupId>org.jbehave</groupId>
 			<artifactId>jbehave-core</artifactId>
 			<version>3.9.2</version>
+			<scope>test</scope>
     	</dependency>
     
         <!-- Run Tests -->
